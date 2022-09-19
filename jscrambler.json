@@ -1,0 +1,56 @@
+{
+  "useRecommendedOrder": true,
+  "areSubscribersOrdered": false,
+  "sourceMaps": false,
+  "applicationTypes": {
+      "webBrowserApp": false,
+      "serverApp": false,
+      "hybridMobileApp": true,
+      "javascriptNativeApp": false,
+      "html5GameApp": false
+  },
+  "languageSpecifications": {
+      "es5": true,
+      "es6": false,
+      "es7": false
+  },
+  "tolerateMinification": true,
+  "params": [
+      {
+          "name": "objectPropertiesSparsing"
+      },
+      {
+          "name": "whitespaceRemoval"
+      },
+      {
+          "options": {
+              "mode": "SAFEST"
+          },
+          "name": "identifiersRenaming"
+      },
+      {
+          "name": "dotToBracketNotation"
+      },
+      {
+          "name": "stringConcealing"
+      },
+      {
+          "name": "functionReordering"
+      },
+      {
+          "options": {
+              "features": [
+                  "opaqueFunctions"
+              ],
+              "freq": 1
+          },
+          "name": "functionOutlining"
+      },
+      {
+          "name": "regexObfuscation"
+      },
+      {
+          "name": "booleanToAnything"
+      }
+  ]
+}
