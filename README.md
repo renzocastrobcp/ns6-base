@@ -26,3 +26,9 @@ npm i nativescript@6.8 -g
 npm run clean
 tns run ios --env.aot
 ```
+
+## Issue:
+
+@nativescript/angular v8.21.0 + JScrambler on device iPhone 6 (iOS 12.5.5). Load the splash few seconds and after app crashed.
+
+See note in [src/app/navigation/app.navigation.ts](src/app/navigation/app.navigation.ts)
